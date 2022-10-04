@@ -53,7 +53,7 @@ barchartGC(~race + cappun,data=mydata)
 barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
-The plot shows that that the attitude does depend on race.
+The plot shows that the attitude does depend on race and white peoples opinion is more respected them the black peoples opinion is.
 
 ## Now with The Most data (fewer variables gives more data points)
 

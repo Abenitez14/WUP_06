@@ -53,6 +53,7 @@ barchartGC(~race + cappun,data=mydata)
 barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
+
 The plot shows that the attitude does depend on race and white peoples opinion is more respected them the black peoples opinion is.
 
 ## Now with The Most data (fewer variables gives more data points)
@@ -82,14 +83,16 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-The p value is 0 so they have a different opinions on the matter with black people and white people.
+The p value we got is 7.7 for the exact data test that shows that they do indeed have different inquires. 
 ```{r}
 fisherXY(mydata$race,mydata$cappun)
 ```
 The odds ratio is 0.6 and a 95 percent confidence interval that they both have different opinion unlikely be the same.
+
 ## More data version
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+In this branch we had more data and more variables,The plot shows that the attitude does depend on race and white peoples opinion is more respected them the black peoples opinion is. There are a lot of white people who are in favor for capital punishment and black people against it and other is on the fence on it.The p value we got is 7.7 for the exact data test that shows that they do indeed have different inquires.The odds ratio is 0.6 and a 95 percent confidence interval that they both have different opinion unlikely be the same. The second branch we have less data so we get a different result.

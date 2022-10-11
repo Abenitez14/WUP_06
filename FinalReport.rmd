@@ -51,7 +51,7 @@ barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
 
-There are a lot of white people who are in favor of capital punishment then any other race black people are kind of half and half but most don't want capital punishment.
+In this plot it shows me that there about 400 white people for capital punishment and about 200 white people who are against capital punishment, about 50 black people who are for capital punishment and about 60 black people who against capital punishment or we could say about 65% of white people are for it and about 30% of white people who are against it, about 45% of black people who are for it and about 50% of black people who are against it.
 
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 

@@ -38,7 +38,7 @@ mutate(across(where(is.character), as.factor))
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
-For my methods i will be using the cat cat helper file, like numerical,graphical,and inferential, so i could figure out if capital punishment depends on race
+For my methods i will be using the cat cat helper file, like numerical,graphical,and inferential, so i could figure out if capital punishment depends on race.
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
@@ -54,7 +54,7 @@ barchartGC(~race + cappun,data=mydata, type="percent")
 
 ```
 
-The plot shows that the attitude does depend on race and white peoples opinion is more respected them the black peoples opinion is.
+The plot shows that there are about 1450 white people who are in favor for capital punishment and about 550 White people who are opposed capital punishment and about 250 black people are for capital punishment and about 350 black people are against capital punishment or we could say 65% of white people are for it and 35% of white people who are against it, about 45% of black people are for capital punishment and about 55% of black people are against capital punishment. The white people are for it 2 to 1 and for black people it is 5 to 4. 
 
 ## Now with The Most data (fewer variables gives more data points)
 

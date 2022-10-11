@@ -67,7 +67,7 @@ table1 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
-My Numerical results show that there are 79% of white people are in favor black people are 11% are in favor and others are 9% in favor.There are only 66% of white people who oppose black people are 22 % and others are 10 percent. 
+My Numerical results show that there are 68% of white people are for it and 32% who are against it,for black people there are 47% who are in favor and 53% of black people who are opposed it,and for others there are 61% that are in favor and 39% of others who are against it.
 
 
 

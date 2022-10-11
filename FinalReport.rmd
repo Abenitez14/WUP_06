@@ -68,7 +68,7 @@ table1 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
-There are a lot of white people who are in favor for capital punishment and black people against it and other is on the fence on it
+The white people are 65% for it and 35% against it, Black people are 43% for it and 57% against it, for other people there are 55% for it and 45% against it. The biggest split is with the white and the black.
 
 
 ## Now with More data

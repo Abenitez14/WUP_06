@@ -83,11 +83,11 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-The p value we got is 7.7 for the exact data test that shows that they do indeed have different inquires. 
+
 ```{r}
 fisherXY(mydata$race,mydata$cappun)
 ```
-The odds ratio is 0.6 and a 95 percent confidence interval that they both have different opinion unlikely be the same.
+Each group has a different opinion according to both fisher test it shows us not one race shares a common ground opinion about capital punishment. 
 
 ## More data version
 

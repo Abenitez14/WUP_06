@@ -80,11 +80,11 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-The p value is 2.2 percent and we can't figure it out unless we use the other inferentail test to get the exact value.
+
 ```{r}
 fisherXY(mydata$race,mydata$cappun, printAll= TRUE)
 ```
-The second fisher test shows us that using lesser data we get that we are truly just seeing the data for black and white. The odds ratio is 0.5681142 and we get a 95 percent confidence interval and we just see that the p value of the data is 0.06299.
+The second fisher test shows us that using lesser data we get that we are truly just seeing the data for black and white. The odds ratio is 2.343 and we get a 95 percent confidence interval and we just see that the p value of the data is 1.742e-05.
 
 # Discussion and Conclusion
 
